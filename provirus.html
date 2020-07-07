@@ -2,17 +2,23 @@
 <html>
 	<head>			
 		<title>Как сделать вирус ?</title>
+		<!-- script for jQuery -->
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.js"
+			integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+			crossorigin="anonymous">
+		</script>
+		
+		<script> 
+		<!-- add html header and footer fragments -->
+			$(function(){
+				$("#header").load("menu.html"); 
+				$("#footer").load("menu.html"); 
+			});
+		</script> 
 	</head>
 	<body>
-		<!-- Начало Меню -->
-		<table>
-		  <tr>
-			<td><a href = "index.html" target="_self" style="color: green"> Сайт jetiktv</a></td>
-			<td><a href = "blogs.html">СТАТЬИ</a></td>
-			<td>О САЙТЕ</td>
-		  </tr>
-		</table>
-		<!-- Конец Меню  -->
+		<div id="header"></div>
 	
 		<h1 style="color:red ">ВИРУСЫ</h1>
 		
@@ -33,5 +39,7 @@
 				<img src = "off.png"width = "500px"/>
 			</em>
 		</h3>
+		
+		<div id="footer"></div>
 	</body>
 </html>
