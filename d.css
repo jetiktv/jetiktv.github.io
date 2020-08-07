@@ -4,3 +4,16 @@ h1 {
 .sait {
  color: green;	
 }
+table{
+    background-color: black;
+    padding: 50px 100px 10px 30px;
+}
+.photo {
+	border: 3px solid white;
+	margin-right: 20px;
+	height: 100px;
+	
+}
+.photove {
+	 border: 8px solid green;
+}
