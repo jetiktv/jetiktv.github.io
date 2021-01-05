@@ -1,12 +1,15 @@
+
+@media screen and (min-width: 600px) {
 h1 {
 	color:red;
 }
+	}
 .sait {
  color: green;	
 }
 table{
-    background-color: white;
-    padding: 50px 100px 10px 30px;
+     
+     
 }
 .photo {
 	border: 3px solid white;
@@ -17,3 +20,4 @@ table{
 .photove {
 	 border: 8px solid green;
 }
+
