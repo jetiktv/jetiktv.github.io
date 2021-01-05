@@ -21,3 +21,8 @@ table{
 	 border: 8px solid green;
 }
 
+@media screen and (min-width: 600px) {
+mom {
+	 display:none;
+}
+	}
