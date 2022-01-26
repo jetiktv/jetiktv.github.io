@@ -1,7 +1,7 @@
 
 @media screen and (min-width: 600px) {
 h1 {
-	color:red;
+	color:rgb(228, 151, 18);
 }
 	}
 .sait {
@@ -26,3 +26,6 @@ mom {
 	 display:none;
 }
 	}
+.e1{
+	color:brown;
+}
