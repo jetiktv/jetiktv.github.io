@@ -29,3 +29,14 @@ mom {
 .e1{
 	color:brown;
 }
+
+.active {
+	text-decoration: none;
+	font-weight: bold;
+	color: brown;
+}
+
+#menu > ul > li{
+	display: inline-block;
+	margin-right: 10px;
+}
