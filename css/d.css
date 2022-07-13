@@ -46,4 +46,10 @@ a:link {
 body {
      background-color:black ;
 }
-      
+footer {
+background-color:#ffcc99;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+}      
